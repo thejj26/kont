@@ -1,0 +1,152 @@
+* {
+    color: #eeeeee;
+}
+
+body {
+    background: rgb(3, 0, 28);
+}
+
+.maxw {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0 120px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0;
+}
+
+nav h1 {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: "Raleway";
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+nav ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: "Inter";
+}
+
+nav ul img {
+    height: 25px;
+}
+
+.btn {
+    box-sizing: border-box;
+    background: radial-gradient(100% 626.68% at 0% 0%, rgba(30, 19, 65, 0.6) 0%, rgba(57, 30, 138, 0.6) 49.19%, rgba(119, 94, 197, 0.6) 94.27%);
+    color: #ffffff;
+    border-radius: 25px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.btn-signup {
+    height: 44px;
+    width: 115px;
+}
+
+div.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.left {
+    max-width: 395px;
+}
+
+.left h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 88px;
+    background: radial-gradient(100% 506.25% at 0% 0%, #F9F7FF 0%, #C9BCF1 49.22%, #8A70DA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.left p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 85px;
+}
+
+.btn-buy {
+    width: 203px;
+    height: 45px;
+}
+
+.btn-round {
+    width: 45px;
+    height: 45px;
+    margin-left: 27px;
+}
+
+.left .how {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    display: inline;
+    margin-left: 13px;
+}
+
+.right{
+    width: auto;
+}
+
+.right img {
+    height: 612px;
+    width: auto;
+    float: right;
+    position: relative;
+    left: 141px;
+}
+
+.btn-nav{
+    display: block;
+    width: 100%;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+}
+
+
+
+.btn-nav>img{
+    width: 66px;
+    height: auto;
+}
+
+.btn-nav .btn-round{
+    margin: 0;
+}
